@@ -1,7 +1,13 @@
 #import "@preview/codelst:2.0.1": sourcefile
 
-#text([*Aho-Corasick:*], size: 11pt)
-Builds the Aho-Corasick automaton.
+#line(length: 100%)
+
+= String algorithms
+
+== Aho-Corasick
+Builds the Aho-Corasick automaton.\
+_Time_: $cal(O)(N)$ where $N$ is the total length of the strings.
+_Memory_: $cal(O)(Sigma N)$ where $Sigma$ is the size of the alphabet.
 
 #sourcefile(
 	read("../src/string/aho_corasick.cpp"),
