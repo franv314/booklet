@@ -2,6 +2,11 @@
 
 This booklet aims at containing useful algorithm and data structure implementations for ICPC-like contests.
 
+## Compilation
+
+Compile from the root directory with
+`typst watch booklet/booklet.typ --root .`
+
 ## Entries
 
 Code contained in the booklet **must** be indented with tabs and be at most 48 columns wide (1 tab = 2 columns).

@@ -12,9 +12,9 @@
 #set text(size: 10pt)
 
 #show outline.entry.where(
-  level: 1
+	level: 1
 ): it => {
-  strong(it)
+	strong(it)
 }
 
 #columns(
