@@ -1,13 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef long long i64;
+#include "../header.h"
 
 template <typename T=i64>
 struct rmq{
 	vector<vector<T>> sp;
 	int n, log;
-	rmq(int size, vector<T> &vec){
+	rmq(int size, vector<T> const &vec){
 		n = size;
 		log = 32 - __builtin_clz(n);
 		sp.resize(log, vector<T>(n));
@@ -15,7 +15,7 @@ struct rmq{
 		sp[0] = vec;
 		for(int i=0; i<log-1; i++){
 			for(int j=0; j<n; j++){
-				if(j + (1<<i) >= n) sp[i+1][j] = sp[i][j];
+				if(j + (1<<i) >= n) break;
 				else sp[i+1][j] = min(sp[i][j], sp[i][j+(1<<i)]); // change here for different operation
 			}
 		}
