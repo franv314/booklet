@@ -1,3 +1,5 @@
+#define MOD 998'244'353 // DO NOT INCLUDE IN THE BOOKLET
+
 #include <bits/stdc++.h>
 using namespace std;
 
