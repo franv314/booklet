@@ -12,7 +12,7 @@ _Time_: $cal(O)(N)$ where $N$ is the length of the string.
 	read("../src/string/z_function.cpp"),
 	lang: "cpp",
 	file: "src/string/z_function.cpp",
-	showrange: (4, 100),
+	showrange: (6, 100),
 	numbers-start: 1,
 )
 
@@ -25,6 +25,6 @@ _Memory_: $cal(O)(Sigma N)$ where $Sigma$ is the size of the alphabet.
 	read("../src/string/aho_corasick.cpp"),
 	lang: "cpp",
 	file: "src/string/aho_corasick.cpp",
-	showrange: (4, 100),
+	showrange: (6, 100),
 	numbers-start: 1,
 )

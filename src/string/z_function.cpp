@@ -1,3 +1,5 @@
+// included from https://github.com/franv314/booklet/blob/main/src/string/z_function.cpp
+
 #include <bits/stdc++.h>
 using namespace std;
 

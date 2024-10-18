@@ -1,3 +1,5 @@
+// included from https://github.com/franv314/booklet/blob/main/src/header.h
+
 #define MOD 998'244'353 // DO NOT INCLUDE IN THE BOOKLET
 
 #include <bits/stdc++.h>

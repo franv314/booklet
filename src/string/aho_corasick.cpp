@@ -1,3 +1,5 @@
+// included from https://github.com/franv314/booklet/blob/main/src/string/aho_corasick.cpp
+
 #include <bits/stdc++.h>
 using namespace std;
 

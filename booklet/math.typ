@@ -13,7 +13,7 @@ _Time_: $cal(O)(log a b)$
 	read("../src/math/nt.cpp"),
 	lang: "cpp",
 	file: "src/math/nt.cpp",
-	showrange: (4, 11),
+	showrange: (6, 13),
 	numbers-start: 1,
 )
 
@@ -23,7 +23,7 @@ Finds $x^(-1) mod m$ in $cal(O)(log m)$.
 	read("../src/math/nt.cpp"),
 	lang: "cpp",
 	file: "src/math/nt.cpp",
-	showrange: (12, 100),
+	showrange: (14, 100),
 	numbers-start: 9,
 )
 
@@ -37,7 +37,7 @@ _Time_: $cal(O)(log "mod")$ for $\/$ (*only if mod is prime*)
 	read("../src/math/modular_int.cpp"),
 	lang: "cpp",
 	file: "src/math/modular_int.cpp",
-	showrange: (4, 100),
+	showrange: (6, 100),
 	numbers-start: 1,
 )
 
@@ -50,7 +50,7 @@ _Time_: $cal(O)("maxn")$.
 	read("../src/math/comb.cpp"),
 	lang: "cpp",
 	file: "src/math/comb.cpp",
-	showrange: (4, 14),
+	showrange: (6, 16),
 	numbers-start: 1,
 )
 
@@ -61,7 +61,7 @@ _Time_: $cal(O)("maxn")$.
 	read("../src/math/comb.cpp"),
 	lang: "cpp",
 	file: "src/math/comb.cpp",
-	showrange: (16, 26),
+	showrange: (18, 28),
 	numbers-start: 11,
 )
 
@@ -73,7 +73,7 @@ _Time_: $cal(O)(1)$.
 	read("../src/math/comb.cpp"),
 	lang: "cpp",
 	file: "src/math/comb.cpp",
-	showrange: (28, 41),
+	showrange: (30, 43),
 	numbers-start: 21,
 )
 
@@ -84,7 +84,7 @@ _Time_: $cal(O)(1)$
 	read("../src/math/comb.cpp"),
 	lang: "cpp",
 	file: "src/math/comb.cpp",
-	showrange: (43, 47),
+	showrange: (45, 49),
 	numbers-start: 34,
 )
 
@@ -96,7 +96,7 @@ _Time_: $cal(O)(1)$
 	read("../src/math/comb.cpp"),
 	lang: "cpp",
 	file: "src/math/comb.cpp",
-	showrange: (49, 54),
+	showrange: (51, 56),
 	numbers-start: 39,
 )
 
@@ -109,7 +109,7 @@ _Time_: $cal(O)(N)$ construction and $cal(O)(1)$ query.
 	read("../src/math/perm.cpp"),
 	lang: "cpp",
 	file: "src/math/perm.cpp",
-	showrange: (4, 100),
+	showrange: (6, 100),
 	numbers-start: 1,
 )
 
@@ -121,6 +121,6 @@ Implements operations over $D_n$ in $cal(O)(1)$.
 	read("../src/math/dihedral.cpp"),
 	lang: "cpp",
 	file: "src/math/dihedral.cpp",
-	showrange: (4, 100),
+	showrange: (6, 100),
 	numbers-start: 1,
 )

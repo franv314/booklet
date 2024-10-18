@@ -1,3 +1,5 @@
+// included from https://github.com/franv314/booklet/blob/main/src/ds/rmq.cpp
+
 #include <bits/stdc++.h>
 using namespace std;
 

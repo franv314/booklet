@@ -6,6 +6,6 @@
 	read("../src/header.h"),
 	lang: "cpp",
 	file: "src/header.h",
-	showrange: (6, 100),
+	showrange: (8, 100),
 	numbers-start: 1,
 )

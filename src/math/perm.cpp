@@ -1,3 +1,5 @@
+// included from https://github.com/franv314/booklet/blob/main/src/math/perm.cpp
+
 #include <bits/stdc++.h>
 using namespace std;
 
