@@ -27,5 +27,6 @@
 		#include("header.typ")
 		#include("math.typ")
 		#include("string.typ")
+		#include("graph.typ")
 	]
 )
